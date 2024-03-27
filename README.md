@@ -50,7 +50,38 @@ Our data model represents an emergency healthcare clinic chain. We have thirteen
 
 ## Queries:
 (Insert Query Chart)
-(Insert Queries)
+
+1. Query 1 displays important prescription information for a patient (including multiple prescription occurrences for a patient). It lists patient's names, pharmacy IDs, medicines, dosages, and prescription IDs.
+
+<img width="1548" alt="Screenshot 2024-03-27 at 2 47 40 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/fe734322-bbdf-4500-abe7-9f0e0cc37b98">
+
+This information can be used to identify the pharmacy the patient regularly goes to, making it easy for places like this clinic to transfer details. It also displays a patient’s prescription IDs, medicine, and dosage. These details make it convenient for clinic doctors in case of an emergency. They are easily able to view their patients’ pre-existing prescriptions and medication dosages before administering any other treatments, in case of potential complications.
+
+2. Query 2 displays the past appointment and corresponding billing information for patients. It lists patient IDs, reasons for visiting, appointment IDs, bill IDs, and the total amount they spent.
+
+<img width="679" alt="Screenshot 2024-03-27 at 2 55 12 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/741445d2-6033-423c-9766-c8280d786328">
+
+This would be helpful to gather data about why patients visit and how much they spend each visit. 
+
+3. Query 3 displays the full name of the staff member, their specialization, and the day they are scheduled to work if that employee specializes in either surgery or obstetrics.
+
+<img width="821" alt="Screenshot 2024-03-27 at 2 57 19 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/dff25d2f-2036-4e39-8293-777efee8c0a9">
+
+This query is useful to see what days employees who specialize in surgery or obstetrics are working in the clinic. This important data can be used to see which days on the schedule do not have a staff member who specialize in either of the aforementioned subjects. These scheduled days can be used to coordinate an appropriate appointment day with potential patients trying to come into the clinic for either surgery work or to be looked at by an obstetrician.
+
+4. Query 4 displays the patient names (concatenated and aliased as patientName) and their total bill amount for all customers who have a diagnosis of any type of cancer (lung cancer, throat, etc.). It also orders by the total amounts from highest to lowest so that the organization can prioritize their funds to help the patients in the most financial distress.
+
+<img width="908" alt="Screenshot 2024-03-27 at 3 00 45 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/1633d45d-fd08-494d-a322-8559a7eef4d7">
+
+This query could be useful for the medical clinic who is partnering with an organization that is fundraising to pay the bills of patients with a specific illness. 
+
+5. Query 5 returns concatenated patient first and last names and dosage quantity of patients where their dosage is greater than the average dosage prescribed for the patients whose birthday is in the 2000’s.
+
+<img width="802" alt="Screenshot 2024-03-27 at 3 02 36 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/7a6a74e5-0919-44c7-be4f-5184fe15cb93">
+
+This query is relevant and useful because the emergency room might want to monitor medical details for patients who are younger but taking higher dosages of medication than average. It can also help to pinpoint individuals who may need their dosages to be changed due to concerns with age. 
+
+6. 
 
 ## Database Information
 
