@@ -81,7 +81,37 @@ This query could be useful for the medical clinic who is partnering with an orga
 
 This query is relevant and useful because the emergency room might want to monitor medical details for patients who are younger but taking higher dosages of medication than average. It can also help to pinpoint individuals who may need their dosages to be changed due to concerns with age. 
 
-6. 
+6. Query 6 displays the patients and the number of appointments where the amount they spent was greater than the average bill amount.
+
+<img width="1125" alt="Screenshot 2024-03-27 at 9 16 15 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/e2a3072c-35a0-4fc8-acd4-221a06ccf93b">
+
+This query is useful because it an help management identify patients who have spent large amounts of money to determine ways to reduce spending by seeing what is costing patients the most. 
+
+7. Query 7 displays the different reasons people may be visiting the clinic and the percentage of patients that tested positive for each of those reasons. 
+
+<img width="1627" alt="Screenshot 2024-03-27 at 9 19 55 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/a8fa4b8f-2d18-4611-980a-0078aa78452b">
+
+This query is useful because it would allow the clinic to allocate resources and staff to properly address certain conditions. If people test positive they likely will have return visits, and it will also help the clinic to know where they can help with informing people about prevention of diseases where it’s most prevalent.
+
+8. Query 8 displays the date on the staff schedule and the number of employees working that day when there is less than three people scheduled to work.
+
+<img width="795" alt="Screenshot 2024-03-27 at 9 22 41 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/68eae441-4be5-4cb0-8235-55a62c21ec5a">
+
+This query shows the dates on the staff’s schedule where there are less than three employees to work in the clinic that day. This is an important number because it tells upper management, who design the staff schedule, to assign more employees to the appropriate days to ensure the clinic is fully staffed and every patient is properly cared for. 
+
+9. Query 9 displays the patient ID, patient name, the total amount they have spent, and the percentage of this amount out of the total amount spent by patients in the USA.
+   
+<img width="1603" alt="Screenshot 2024-03-27 at 9 34 11 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/a26a3619-d69d-463a-aece-b0b7c54ece26">
+
+This can be used to identify which patients in the USA are spending the most amount of money and how much they contribute to the total amount.
+
+10. Query 10 retrieves the names of labs and diagnostic test times. It additionally filters by a specific test time.
+
+<img width="1560" alt="Screenshot 2024-03-27 at 9 30 11 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/31127671-ac14-45b9-95cb-fd4deee065d8">
+
+This query would be useful for a district lab manager who works for the healthcare clinic, and would like to analyze a trend in certain tests being done at different points in the year, improving practices by allocating resources accordingly, etc. 
 
 ## Database Information
 
+Name of Database: ns_Sp24_21484_Group2
+Procedure Call: CALL TP_Q1 ();
