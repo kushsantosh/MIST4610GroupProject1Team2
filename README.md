@@ -114,4 +114,5 @@ This query would be useful for a district lab manager who works for the healthca
 ## Database Information
 
 Name of Database: ns_Sp24_21484_Group2
+
 Procedure Call: CALL TP_Q1 ();
