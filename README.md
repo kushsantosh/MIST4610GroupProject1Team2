@@ -49,7 +49,7 @@ Our data model represents an emergency healthcare clinic chain. We have thirteen
 ![Screenshot 2024-03-26 at 9 44 03 PM](https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/9e7dd1c0-bf55-4aa6-8d7f-f8806508e56e)
 
 ## Queries:
-(Insert Query Chart)
+<img width="888" alt="Screenshot 2024-03-27 at 9 40 15 PM" src="https://github.com/kushsantosh/MIST4610GroupProject1Team2/assets/165107122/38be9521-f767-4f7d-be88-04b3722451a9">
 
 1. Query 1 displays important prescription information for a patient (including multiple prescription occurrences for a patient). It lists patient's names, pharmacy IDs, medicines, dosages, and prescription IDs.
 
